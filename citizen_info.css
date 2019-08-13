@@ -1,0 +1,14 @@
+* {
+  background-color: #990000
+}
+.header {
+  background-color: #ffffff;
+  width: auto;
+  height: auto;
+  font-family: 'Cormorant SC', serif;
+  font-size: 20px;
+}
+.bodyText{
+  color: white;
+  font-family: 'Port Lligat Slab', serif;
+}
