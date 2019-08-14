@@ -1,18 +1,28 @@
-<<<<<<< HEAD
 * {
-  background-color: #1d2e63
+  background-color: #09244B
 }
 .header {
-  background-color: #ffffff;
+  background-color: #7095CC;
   width: auto;
   height: auto;
   font-family: 'Cormorant SC', serif;
-  font-size: 20px;
+  font-size: 55px;
+}
+#titleText {
+  border-style: solid;
+  border-color: black;
 }
 .bodyText{
   color: white;
   font-family: 'Port Lligat Slab', serif;
 }
+#genJobInfo{
+  color: white;
+}
+.link{
+  color:pink;
+}
+
 /* =======
 * {
   background-color: #990000
