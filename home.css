@@ -3,6 +3,12 @@ body{
   font-family: "Times New Roman", Times, serif;
 }
 
+.centerpic {
+  display: block;
+  margin-left: 30%;
+  margin-right: auto;
+  width: 40%;
+}
 .middletext{
   position:absolute;
   top: 100%;
@@ -11,6 +17,11 @@ body{
   font-size: 20px;
   border: 10px solid white;
 }
+/* .middletext{
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  transform:translate(-50%,-50%); */
 
 .top-center {
   width: 16px;
@@ -63,8 +74,8 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.navbar{
-  font-size: 20px;
+.navbar {
+  font-size: 1.8em;
   top: 0%;
   left: 50%;
   right: 0%;
@@ -80,8 +91,8 @@ body{
 }
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
+  padding: 5px;
+  font-size: 10px;
   width: 35px;
   text-align: center;
   text-decoration: none;
@@ -103,14 +114,24 @@ body{
   color: white;
 }
 
+/* .languages {
+  float: right;
+  margin-right: 2%;
+  float: top;
+  margin-top: 2%
+  top: 20px;
+  font-size: 12px;
+  color: white;
+} */
 
 .socialIcons{
   float: right;
   top: 25px;
-
+  padding: 2px;
+  font-size: 20px;
 }
 
-.email{
+/* .email{
   float: right;
   margin-right: 2%;
   float: top;
@@ -119,4 +140,4 @@ body{
   font-size: 12px;
   color: white;
   font-family:
-}
+} */
