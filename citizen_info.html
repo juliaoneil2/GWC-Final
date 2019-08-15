@@ -8,8 +8,134 @@
     <link href="https://fonts.googleapis.com/css?family=Beth+Ellen|Caudex|Forum|Port+Lligat+Slab|Cormorant+SC|Fredericka+the+Great|Pompiere&display=swap" rel="stylesheet">
 </head>
 <body>
-    </style>
-    </div>
+    <style>
+    img {
+      width: 40%;
+      height: 10%;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-size: 100%;
+    }
+
+    .active {
+      background-color: #4CAF50;
+    }
+
+    .navbar {
+      font-size: 20px;
+      width: 100%;
+      background-color: #1000;
+      overflow:hidden;
+      top: 0;
+    }
+    .navbar a {
+      float: left;
+      font-size: 20px;
+      text-align: center;
+      padding: 10px;
+      display: block;
+      color: white;
+      text-decoration: none;
+      font-size: 16.8px;
+    }
+
+    .navbar a:hover  {
+      background: black;
+      color: white;
+    }
+
+    .navbar a:hover .subnav:hover .subnavb {
+      background-color: #000;
+      font-family: "Georgia";
+      font-size: 20px;
+    }
+    .subnavb {
+      font-size: 20px;
+    }
+    .subnav {
+      float: left;
+      overflow: hidden;
+      font-family: "Georgia";
+      font-size: 17px;
+    }
+    .subnav .subnavb {
+      font-size: 20px;
+      color: inherit;
+      padding: 0px;
+      background-color:#4CAF50;
+      font-family: "Georgia";
+      margin: 0px;
+      width: 100%;
+      overflow: hidden;
+      top:0;
+    }
+    .subnav-content {
+      display: none;
+      position: absolute;
+      left: 14%;
+      top: 10.5%;
+      background-color: none;
+      width: 10%;
+      z-index: 1;
+      font-family: "Georgia";
+    }
+    .subnav-content a {
+      float: left;
+      color: white;
+      text-decoration: none;
+      font-family: "Georgia";
+    }
+
+    .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+    font-family: "Georgia";
+    }
+
+    .subnav:hover .subnav-content {
+      display: block;
+      font-family: "Georgia";
+    }
+    .subnav-content2 {
+      display: none;
+      position: absolute;
+      left: 9%;
+      top: 15%;
+      background-color: none;
+      width: 10%;
+      z-index: 1;
+      font-family: "Georgia";
+    }
+    .subnav-content2 a {
+      float: left;
+      color: white;
+      text-decoration: none;
+      font-family: "Georgia";
+    }
+
+    .subnav-content2 a:hover {
+    background-color: #eee;
+    color: black;
+    font-family: "Georgia";
+    }
+
+    .subnav:hover .subnav-content2 {
+      display: block;
+      font-family: "Georgia";
+    }
+    @media screen and (max-width: 500px) {
+      .navbar a {
+        float: none;
+        display: block;
+      }
+    }
+    .translateFlagsLogo {
+      top: 40%;
+    }
+  </style>
     <div class="container">
       <!-- <img src="eyeem-121207379.jpg" alt="Background Pic" style="width:100%;"> -->
       <!-- <div class="bottom-left">Bottom Left</div>
@@ -21,17 +147,48 @@
 <ul>
   <div class="navbar">
     <a class="active" href="home.html"><i class="fa fa-fw fa-home"></i>HOME</a>
-    <a href="languages.html"><i class="fa fa-fw fa-bars"></i>LANGUAGES</a>
-    <a href="job_opportunities.html"><i class="fa fa-fw fa-address-card"></i>JOB OPPURTUNITIES</a>
-    <a href="food/shelter.html"><i class="fa fa-fw fa-map-marker"></i>FOOD/SHELTER</a>
-    <a href="ice_info.html"><i class="fa fa-fw fa-bullhorn"></i>ICE INFO</a>
-    <a href="citizenshipprocess.html"><i class="fa fa-fw fa-folder-open"></i>CITIZENSHIP PROCESS</a>
-    <a href="about_us.html"><i class="fa fa-fw fa-user"></i>ABOUT US</a>
+    <div class="subnav">
+      <a class="active"><class="subnavb"><i class="fa fa-fw fa-bars"></i>LANGUAGES<i class="fa fa-caret-down"></i></a>
+      <div class="subnav-content">
+        <a href='#'>Arabic</a>
+        <br>
+        <a href='#'>French</a>
+        <br>
+        <a href='#'>Hindi</a>
+        <a href='#'>Mandarin</a>
+        <br>
+        <a href='#'>Russian</a>
+        <br>
+        <a href='#'>Spanish</a>
+      </div>
+      <!-- <div class="subnav-content2">
+        <a href='#'>Mandarin</a>
+        <a href='#'>Russian</a>
+        <a href='#'>Spanish</a>
+      </div> -->
+    </div>
+    <!-- <a href="languages.html"><i class="fa fa-fw fa-bars"></i>LANGUAGES</a> -->
+    <a class="active" href="job_opportunities.html"><i class="fa fa-fw fa-address-card"></i>JOB OPPURTUNITIES</a>
+    <a class="active" href="food/shelter.html"><i class="fa fa-fw fa-map-marker"></i>FOOD/SHELTER</a>
+    <a class="active" href="ice_info.html"><i class="fa fa-fw fa-bullhorn"></i>ICE INFO</a>
+    <a class="active" href="citizen_info.html"><i class="fa fa-fw fa-folder-open"></i>CITIZENSHIP PROCESS</a>
+    <a class="active" href="about_us.html"><i class="fa fa-fw fa-user"></i>ABOUT US</a>
   </div>
-  <div class="socialIcons">
-    <a href="#" class="fa fa-twitter"></a>
-    <a href="#" class="fa fa-instagram"></a>
-  </div>
+    <div class="socialIcons">
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+</ul>
+    </style>
+    </div>
+    <div class="container">
+      <!-- <img src="eyeem-121207379.jpg" alt="Background Pic" style="width:100%;"> -->
+      <!-- <div class="bottom-left">Bottom Left</div>
+      <div class="top-left">Top Left</div>
+      <div class="top-right">Top Right</div>
+      <div class="bottom-right">Bottom Right</div>
+      <div class="centered">Centered</div> -->
+    </div>
 
 
   <div class="header" align="center">
@@ -61,6 +218,13 @@
     <li><b> USCIS Application Support Center </b> - 4929, 1260-1278 60th St, Brooklyn, NY 11219. <a href= 'https://www.google.com/search?q=uscis%20application%20support%20center&oq=USCIS+Application+Support+Center&aqs=chrome.0.0l6.1041j0j7&sourceid=chrome&ie=UTF-8&safe=strict&npsic=0&rflfq=1&rlha=0&rllag=40678767,-74107447,10640&tbm=lcl&rldimm=1408900409725090365&lqi=CiB1c2NpcyBhcHBsaWNhdGlvbiBzdXBwb3J0IGNlbnRlciIDiAEBWiIKIHVzY2lzIGFwcGxpY2F0aW9uIHN1cHBvcnQgY2VudGVy&ved=2ahUKEwiJxb2KxoLkAhWEc98KHVElDAcQvS4wAXoECAsQHA&rldoc=1&tbs=lrf:!2m1!1e3!2m1!1e16!3sIAE,lf:1,lf_ui:4#rlfi=hd:;si:1408900409725090365,l,CiB1c2NpcyBhcHBsaWNhdGlvbiBzdXBwb3J0IGNlbnRlciIDiAEBWiIKIHVzY2lzIGFwcGxpY2F0aW9uIHN1cHBvcnQgY2VudGVy;mv:!1m2!1d40.892308!2d-73.7769998!2m2!1d40.614301999999995!2d-74.24029!3m12!1m3!1d135000.3694156068!2d-74.00864490000001!3d40.753305!2m3!1f0!2f0!3f0!3m2!1i338!2i268!4f13.1' class="link"> (See in Google Maps). </a></li>
     <li><b> US Citizenship and Immigration Services </b> - 27-35 Jackson Ave, Long Island City, NY 11101. <a href= 'https://www.google.com/search?safe=strict&tbm=lcl&ei=WxhUXebGKIiKggfzzIq4Cg&q=US+Citizenship+and+Immigration+Services&oq=US+Citizenship+and+Immigration+Services&gs_l=psy-ab.3..35i39k1j0i7i30k1j0l8.4223.4378.0.4748.2.2.0.0.0.0.188.188.0j1.1.0....0...1c.1.64.psy-ab..1.1.185....0.fdUVUNnTyMU' class="link"> (See in Google Maps). </a> </li>
     <p class="answer" id="space">                          </n></p>
+  <div>
+</body>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</html>
 
 <!-- =======
 <!DOCTYPE html>
