@@ -1,6 +1,11 @@
-* {
-  background-color: #09244B
+html {
+  background: url("background_53876-32169.jpg") no-repeat center center fixed;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
 }
+
 .header {
   background-color: #7095CC;
   width: auto;
@@ -10,19 +15,22 @@
   /* border-style: solid;
   border-color: black; */
 }
+.bodyText {
+  font-family:"Georgia";
+  font-size: 20px;
+  font-style: italic;
+  border-style: solid;
+  border-color: #:#0c0d17;
+  padding: 1em;
+
+}
+.text {
+  text-indent: 50px;
+}
+
 #titleText {
   border-style: solid;
   border-color: black;
-}
-.bodyText{
-  color: white;
-  font-family: 'Port Lligat Slab', serif;
-}
-#genJobInfo{
-  color: white;
-}
-.link{
-  color:pink;
 }
 .navbar {
   font-size: 1.8em;
@@ -50,10 +58,11 @@
   background: #125688;
   color: white;
 }
-.socialIcons {
-  position:absolute;
-  top: 10.6%;
-  right: .3%;
-  padding: 2px;
-  font-size: 15px;
+.socialIcons{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  padding: 5px;
+  font-size: 25px;
 }

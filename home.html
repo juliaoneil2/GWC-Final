@@ -22,16 +22,18 @@
         padding: 0;
         background-size: 100%;
       }
+
+      .active {
+        background-color: #4CAF50;
+      }
+
       .navbar {
-        font-size: 1.8;
+        font-size: 20px;
         width: 100%;
-        /* height: 20%; */
-        background-color: #555;
+        background-color: #1000;
         overflow:hidden;
         top: 0;
       }
-
-
       .navbar a {
         float: left;
         font-size: 20px;
@@ -40,34 +42,48 @@
         display: block;
         color: white;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 16.8px;
       }
 
-      .navbar a:hover .subnav:hover .subnavbtn {
+      .navbar a:hover  {
+        background: black;
+        color: white;
+      }
+
+      .navbar a:hover .subnav:hover .subnavb {
         background-color: #000;
         font-family: "Georgia";
         font-size: 20px;
       }
-      .navbar a:hover  {
-        background: black;
-        color: white;
-
+      .subnavb {
+        font-size: 20px;
       }
       .subnav {
-      float: left;
-      overflow: hidden;
-      font-family: "Georgia"
-      font-size: 20px;
+        float: left;
+        overflow: hidden;
+        font-family: "Georgia";
+        font-size: 17px;
+      }
+      .subnav .subnavb {
+        font-size: 20px;
+        color: inherit;
+        padding: 0px;
+        background-color:#4CAF50;
+        font-family: "Georgia";
+        margin: 0px;
+        width: 100%;
+        overflow: hidden;
+        top:0;
       }
       .subnav-content {
         display: none;
         position: absolute;
-        left: 0;
-        background-color: #b2d0d9;
-        width: 100%;
+        left: 14%;
+        top: 10.5%;
+        background-color: none;
+        width: 10%;
         z-index: 1;
         font-family: "Georgia";
-        position: fixed;
       }
       .subnav-content a {
         float: left;
@@ -86,32 +102,45 @@
         display: block;
         font-family: "Georgia";
       }
-
-      .active {
-        background-color: #4CAF50;
+      .subnav-content2 {
+        display: none;
+        position: absolute;
+        left: 9%;
+        top: 15%;
+        background-color: none;
+        width: 10%;
+        z-index: 1;
+        font-family: "Georgia";
+      }
+      .subnav-content2 a {
+        float: left;
+        color: white;
+        text-decoration: none;
+        font-family: "Georgia";
       }
 
+      .subnav-content2 a:hover {
+      background-color: #eee;
+      color: black;
+      font-family: "Georgia";
+      }
+
+      .subnav:hover .subnav-content2 {
+        display: block;
+        font-family: "Georgia";
+      }
       @media screen and (max-width: 500px) {
         .navbar a {
           float: none;
           display: block;
         }
       }
-      .subnav .subnavbtn {
-        font-size: 16px;
-        border: none;
-        outline: none;
-        color: #26464a;
-        padding: 14px 16px;
-        background-color: inherit;
-        font-family: "Georgia";
-        margin: 0;
-        font-size: 20px;
+      .translateFlagsLogo {
+        top: 40%;
       }
     </style>
-      <div class="middletext">
-        <!-- <h1 align="bottom-center">FASHION LOG</h1> -->
-      </div>
+      <!-- <div class="middletext">
+      </div> -->
       <div class="container">
         <!-- <img src="eyeem-121207379.jpg" alt="Background Pic" style="width:100%;"> -->
         <!-- <div class="bottom-left">Bottom Left</div>
@@ -124,57 +153,44 @@
     <div class="navbar">
       <a class="active" href="home.html"><i class="fa fa-fw fa-home"></i>HOME</a>
       <div class="subnav">
-        <button class="subnavbtn"><i class="fa fa-fw fa-bars"></i>LANGUAGES</button>
+        <a class="active"><class="subnavb"><i class="fa fa-fw fa-bars"></i>LANGUAGES<i class="fa fa-caret-down"></i></a>
         <div class="subnav-content">
-          <a href='#'>Spanish</a>
           <a href='#'>Arabic</a>
+          <br>
+          <a href='#'>French</a>
+          <br>
+          <a href='#'>Hindi</a>
           <a href='#'>Mandarin</a>
+          <br>
+          <a href='#'>Russian</a>
+          <br>
+          <a href='#'>Spanish</a>
         </div>
+        <!-- <div class="subnav-content2">
+          <a href='#'>Mandarin</a>
+          <a href='#'>Russian</a>
+          <a href='#'>Spanish</a>
+        </div> -->
       </div>
-      <div>
       <!-- <a href="languages.html"><i class="fa fa-fw fa-bars"></i>LANGUAGES</a> -->
-      <a href="job_opportunities.html"><i class="fa fa-fw fa-address-card"></i>JOB OPPURTUNITIES</a>
-      <a href="food/shelter.html"><i class="fa fa-fw fa-map-marker"></i>FOOD/SHELTER</a>
-      <a href="ice_info.html"><i class="fa fa-fw fa-bullhorn"></i>ICE INFO</a>
-      <a href="citizenshipprocess.html"><i class="fa fa-fw fa-folder-open"></i>CITIZENSHIP PROCESS</a>
-      <a href="about_us.html"><i class="fa fa-fw fa-user"></i>ABOUT US</a>
-      </div>
-    <div class="socialIcons">
-      <a href="#" class="fa fa-twitter"></a>
-      <a href="#" class="fa fa-instagram"></a>
+      <a class="active" href="job_opportunities.html"><i class="fa fa-fw fa-address-card"></i>JOB OPPURTUNITIES</a>
+      <a class="active" href="food/shelter.html"><i class="fa fa-fw fa-map-marker"></i>FOOD/SHELTER</a>
+      <a class="active" href="ice_info.html"><i class="fa fa-fw fa-bullhorn"></i>ICE INFO</a>
+      <a class="active" href="citizenshipprocess.html"><i class="fa fa-fw fa-folder-open"></i>CITIZENSHIP PROCESS</a>
+      <a class="active" href="about_us.html"><i class="fa fa-fw fa-user"></i>ABOUT US</a>
     </div>
-    <!-- <div class="languages">
-      <a href="languages.html"><i class="fa fa-fw fa-bars"></i>LANGUAGES</a>
-    </div> -->
+      <div class="socialIcons">
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
   </ul>
-    <!-- <ul>
-      <li><center><p><a>Spanish</a></p></center></li>
-      <br>
-      <li><center><p><a>Arabic</a></p></center></li>
-      <br>
-      <li><center><p><a>Mandarin</a></p></center></li>
-    <br>
-    </ul> -->
   <img src= "BannerFinal.png" class="centerpic">
-  </div>
-</div>
 </body>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <div id="translateFlags"></div>
-    <!-- <button onclick="window.location.href = 'classicoutfits.html';">Click Here</button> -->
-<!-- <h2><p align = "right"> Style Social Media Buttons.</p></h2> -->
-
-<!-- Add font awesome icons -->
-<!-- <div class="socialIcons">
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-linkedin"></a>
-<a href="#" class="fa fa-instagram"></a>
-<a href="#" class="fa fa-snapchat-ghost"></a>
-</div> -->
-
+  <div class="translateFlagsLogo" id="translateFlags"></div>
 </body>
 </html>
