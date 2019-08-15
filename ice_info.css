@@ -26,9 +26,6 @@ body {
 
 
 
-///
-
-
 .centerpic {
   display: block;
   margin-left: 30%;
@@ -100,7 +97,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
->>>>>>> 83df88fd6130adf53b87aec7ff794c6ec47ef30b
 .navbar {
   font-size: 1.8em;
   top: 0%;
@@ -108,8 +104,6 @@ body {
   right: 0%;
   font-family: "Georgia";
 }
-<<<<<<< HEAD
-=======
 .bottom-center{
   position:absolute;
   top: 70%;
@@ -119,7 +113,6 @@ body {
   border: 10px solid black;
 }
 
->>>>>>> 83df88fd6130adf53b87aec7ff794c6ec47ef30b
 .fa {
   padding: 5px;
   font-size: 10px;
@@ -128,38 +121,30 @@ body {
   text-decoration: none;
   margin: 5px 2px;
 }
-<<<<<<< HEAD
 .fa:hover {
     opacity: 0.7;
 }
-=======
 
 .fa:hover {
     opacity: 0.7;
 }
 
->>>>>>> 83df88fd6130adf53b87aec7ff794c6ec47ef30b
 .fa-twitter {
   background: #55ACEE;
   color: white;
 }
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 83df88fd6130adf53b87aec7ff794c6ec47ef30b
 .fa-instagram {
   background: #125688;
   color: white;
 }
-<<<<<<< HEAD
 .socialIcons {
   position:absolute;
   top: 10.6%;
   right: .3%;
   padding: 2px;
   font-size: 15px;
-=======
 
 /* .languages {
   float: right;
@@ -171,15 +156,13 @@ body {
   color: white;
 } */
 
-.socialIcons{
+.socialIcons {
   float: right;
   top: 25px;
   padding: 2px;
   font-size: 20px;
 }
 
-
-///
 
 
 img {
@@ -221,5 +204,3 @@ ul {
     float: none;
     display: block;
   }
->>>>>>> 83df88fd6130adf53b87aec7ff794c6ec47ef30b
-}
