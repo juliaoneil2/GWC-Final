@@ -1,4 +1,4 @@
-* {
+body {
   background-color: #09244B
 }
 .header {
@@ -13,6 +13,7 @@
 #titleText {
   border-style: solid;
   border-color: black;
+  border-width: 95%;
 }
 .bodyText{
   color: white;
@@ -20,6 +21,10 @@
 }
 .ourinterests {
   text-indent: 50px;
+}
+.stories {
+  text-indent: 50px;
+
 }
 .navbar {
   font-size: 1.8em;
