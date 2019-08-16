@@ -3,15 +3,199 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> Citizenship Information </title>
+    <title>Citizenship Process</title>
     <link href="citizen_info.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Beth+Ellen|Caudex|Forum|Port+Lligat+Slab|Cormorant+SC|Fredericka+the+Great|Pompiere&display=swap" rel="stylesheet">
-  </head>
 </head>
 <body>
-  <div class="header" align="center">
-    <h1 align='center' class='header' id='titleText' display = 'inline-block'>Citizenship Information</h1>
+    <style>
+    img {
+      width: 40%;
+      height: 10%;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-size: 100%;
+    }
+
+    .active {
+      background-color: #4CAF50;
+    }
+
+    .navbar {
+      font-size: 20px;
+      width: 100%;
+      background-color: #1000;
+      overflow:hidden;
+      top: 0;
+    }
+    .navbar a {
+      float: left;
+      font-size: 20px;
+      text-align: center;
+      padding: 10px;
+      display: block;
+      color: white;
+      text-decoration: none;
+      font-size: 16.8px;
+    }
+
+    .navbar a:hover  {
+      background: black;
+      color: white;
+    }
+
+    .navbar a:hover .subnav:hover .subnavb {
+      background-color: #000;
+      font-family: "Georgia";
+      font-size: 20px;
+    }
+    .subnavb {
+      font-size: 20px;
+    }
+    .subnav {
+      float: left;
+      overflow: hidden;
+      font-family: "Georgia";
+      font-size: 17px;
+    }
+    .subnav .subnavb {
+      font-size: 20px;
+      color: inherit;
+      padding: 0px;
+      background-color:#4CAF50;
+      font-family: "Georgia";
+      margin: 0px;
+      width: 100%;
+      overflow: hidden;
+      top:0;
+    }
+    .subnav-content {
+      display: none;
+      position: absolute;
+      left: 14%;
+      top: 10.5%;
+      background-color: none;
+      width: 10%;
+      z-index: 1;
+      font-family: "Georgia";
+    }
+    .subnav-content a {
+      float: left;
+      color: white;
+      text-decoration: none;
+      font-family: "Georgia";
+    }
+
+    .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+    font-family: "Georgia";
+    }
+
+    .subnav:hover .subnav-content {
+      display: block;
+      font-family: "Georgia";
+    }
+    .subnav-content2 {
+      display: none;
+      position: absolute;
+      left: 9%;
+      top: 15%;
+      background-color: none;
+      width: 10%;
+      z-index: 1;
+      font-family: "Georgia";
+    }
+    .subnav-content2 a {
+      float: left;
+      color: white;
+      text-decoration: none;
+      font-family: "Georgia";
+    }
+
+    .subnav-content2 a:hover {
+    background-color: #eee;
+    color: black;
+    font-family: "Georgia";
+    }
+
+    .subnav:hover .subnav-content2 {
+      display: block;
+      font-family: "Georgia";
+    }
+    @media screen and (max-width: 500px) {
+      .navbar a {
+        float: none;
+        display: block;
+      }
+    }
+    .translateFlagsLogo {
+      top: 40%;
+    }
+  </style>
+    <div class="container">
+      <!-- <img src="eyeem-121207379.jpg" alt="Background Pic" style="width:100%;"> -->
+      <!-- <div class="bottom-left">Bottom Left</div>
+      <div class="top-left">Top Left</div>
+      <div class="top-right">Top Right</div>
+      <div class="bottom-right">Bottom Right</div>
+      <div class="centered">Centered</div> -->
+    </div>
+<ul>
+  <div class="navbar">
+    <a class="active" href="home.html"><i class="fa fa-fw fa-home"></i>HOME</a>
+    <div class="subnav">
+      <a class="active"><class="subnavb"><i class="fa fa-fw fa-bars"></i>LANGUAGES<i class="fa fa-caret-down"></i></a>
+      <div class="subnav-content">
+        <a href='#'>Arabic</a>
+        <br>
+        <a href='#'>French</a>
+        <br>
+        <a href='#'>Hindi</a>
+        <a href='#'>Mandarin</a>
+        <br>
+        <a href='#'>Russian</a>
+        <br>
+        <a href='#'>Spanish</a>
+      </div>
+      <!-- <div class="subnav-content2">
+        <a href='#'>Mandarin</a>
+        <a href='#'>Russian</a>
+        <a href='#'>Spanish</a>
+      </div> -->
+    </div>
+    <!-- <a href="languages.html"><i class="fa fa-fw fa-bars"></i>LANGUAGES</a> -->
+    <a class="active" href="job_opportunities.html"><i class="fa fa-fw fa-address-card"></i>JOB OPPORTUNITIES</a>
+    <a class="active" href="food/shelter.html"><i class="fa fa-fw fa-map-marker"></i>FOOD/SHELTER</a>
+    <a class="active" href="ice_info.html"><i class="fa fa-fw fa-bullhorn"></i>ICE INFO</a>
+    <a class="active" href="citizen_info.html"><i class="fa fa-fw fa-folder-open"></i>CITIZENSHIP PROCESS</a>
+    <a class="active" href="about_us.html"><i class="fa fa-fw fa-user"></i>ABOUT US</a>
   </div>
+    <div class="socialIcons">
+      <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+    </div>
+</ul>
+    </style>
+    </div>
+    <div class="container">
+      <!-- <img src="eyeem-121207379.jpg" alt="Background Pic" style="width:100%;"> -->
+      <!-- <div class="bottom-left">Bottom Left</div>
+      <div class="top-left">Top Left</div>
+      <div class="top-right">Top Right</div>
+      <div class="bottom-right">Bottom Right</div>
+      <div class="centered">Centered</div> -->
+    </div>
+  <div class="header" align="center">
+    <h1 align='center' class='header' id='titleText' display = 'inline-block'>Citizenship Process</h1>
+    <!-- <img src="citiimage.jfif" alt="US Citizenship Image"> -->
+  </div>
+  <div class="image" align="center">
+  <img src="citiimage.jfif" alt="US Citizenship Image">
+</div>
   <div class="bodyText">
     <h2 class="question" id="Defofciti"> U.S. Citizenship </h2>
     <p class="answer" id="answerDefofciti"> <b>To become a citizen at birth</b>, you must:</n></p>
@@ -21,7 +205,7 @@
     <li> Apply for “derived” or “acquired” citizenship through parents </li>
     <li> Apply for naturalization </li>
     <h3 class="question" id="Naturaltest"> The Naturalization Test </h3>
-    <p class="answer" id="answerNatural"> In order to take the <b>Naturalization Interview</b>, you must fill up Form N-400, also known as <b> Application of Naturalization</b>. Most naturalization applicants are required to take a test on English and Civics (U.S. history and government). For this specific application, a filing fee is required, and currently it costs $725. If you are unable to pay the fees for any reason, USCIS provides feewaivers. For fee processing and/or fee waiver requirements, check this link:<a href= 'https://www.uscis.gov/citizenship/learners/apply-citizenship/forms-and-fees' class="link"> Forms and Fees.</a> For more info on the Naturalization Test, check this website:<a href= 'https://www.uscis.gov/us-citizenship/naturalization-test' class="link"> Naturalization Test.</a></n></p>
+    <p class="answer" id="answerNatural"> In order to take the <b>Naturalization Interview</b>, you must fill up Form N-400, also known as <b> Application of Naturalization</b>. Most naturalization applicants are required to take a test on English and Civics (U.S. history and government). For this specific application, a filing fee is required, and currently it costs $725. If you are unable to pay the fees for any reason, USCIS provides feewaivers. For fee processing and/or fee waiver requirements as well as access to Form N-400 forms, check this link:<a href= 'https://www.uscis.gov/citizenship/learners/apply-citizenship/forms-and-fees' class="link"> Forms and Fees.</a> For more info on the Naturalization Test, check this website:<a href= 'https://www.uscis.gov/us-citizenship/naturalization-test' class="link"> Naturalization Test.</a></n></p>
     <p class="answer" id="answerNatural"> These are the documents you will need to bring to the Naturalization Interview: </n></p>
     <li> Your Green Card (formally known as Form I-551, Permanent Resident Card) </li>
     <li> A photocopy of the front and back of your Green Card </li>
@@ -29,15 +213,29 @@
     <li> All current and expired passports or travel documents </li>
     <li> Copies of your tax returns for the past five years (or three years if you are married to a U.S. citizen) </li>
     <p class="answer" id="answerNatural"> However, depending on your individual case, you may need to submit other items with your application. For additional info, check this website:<a href= 'https://www.uscis.gov/archive/blog/2013/10/applying-for-citizenship-what-to-know'. class="link"> Apply for Citizenship.</a></n></p>
-    <h3 class="question" id="dualCiti"> Dual Citizenship </h3>
-    <p class="answer" id="answerDual"> <b>Dual citizenship</b> — or dual nationality — means being a citizen of two countries simultaneously and sharing the rights and responsibilities of the citizens in each country. The U.S. Government does allow dual citizenship, however it doesn't necessarily mean the country you are from does, too. It’s therefore essential to understand the dual citizenship rules in your country of origin before pursuing U.S. citizenship. To learn more about dual citizenship, check this link: <a href= "https://www.boundless.com/immigration-resources/dual-citizenship/#rights-and-responsibilities-of-dual-citizens" class="link"> Dual Citizenship - Rights and Responsibilities. </a></n></p>
+    <h3 class="question" id="deniedCiti"> Denied Form N-400 </h3>
+    <p class="answer" id="answerDeniedCiti"> If your Form N-400 application has/had been denied, these are some common reasons for the denial: </n></p>
+    <li> <b>Failed the English and/or Civics Test</b> - USCIS will schedule you to come back for another interview within 60-90 days days of your first interview. USCmaIS will only retest you on the part of the test that you failed. However, USCIS will deny your N-400 form if you fail the test(s) a second time. If your English isn't strong, take some time to study from flash cards and other study tools. Check out CitizenPath's free study test prep here: <a href="https://citizenpath.com/us-citizenship-test-interview-preparation/" class="link"> CitizenPath Test Prep. </a></li>
+    <li> <b>Criminal History</b> - USCIS will obtain your biometrics and run a criminal background check. USCIS also wants to know if you have committed a crime in other countries as well.*1 For more info on criminal records, check <a href="https://www.alllaw.com/articles/nolo/us-immigration/criminal-charge-conviction-citizenship-application.html" class="link"> here.</a></li>
+    <li> <b>Failure to Meet Continuous Residence and Physical Presence Requirements</b> - Continuous residence means that the applicant has maintained residence within the United States for a specified period of time. Physical presence means that the applicant has been physically present within the United States for a specified period of time over the previous five years. Generally, you must be have 30 months of physical presence in the U.S. before applying for naturalized citizenship. There are exceptions for applicants married to U.S. citizens and those working for the U.S. government overseas.*2 Click <a href="https://citizenpath.com/continuous-residence-physical-presence-requirements/" class="link"> here</a> for more info.</li>
+    <li> <b>Failure to Meet Financial Obligations</b> - Failure to pay taxes is a common reason to have a Form N-400 denied. If you let USCIS find this problem, you will likely be denied citizenship. To avoid this problem, contact an immigration attorney and tax adviser that can help you develop a plan to pay the taxes and demonstrate to USCIS that you’re fixing the problem, which will further avoid Form N-400 denial. </li>
+    <li> <b>Fraud and Lying to USCIS</b> - If USCIS believes that your answer to a question is deceptive or untrue, your Application for Naturalization will be delayed and could be denied. You must make sure that your application for naturalization is true and accurate when filed. A sign of reasonable effort, for example, would show USCIS that you are being honest and trying hard.</li>
+    <h4 class="question" id="dualCiti"> Dual Citizenship </h4>
+    <p class="answer" id="answerDual"> <b>Dual citizenship</b> — or dual nationality — means being a citizen of two countries simultaneously and sharing the rights and responsibilities of the citizens in each country. The U.S. Government does allow dual citizenship, however it doesn't necessarily mean the country you are from does, too. It’s therefore essential to understand the dual citizenship rules in your country of origin before pursuing U.S. citizenship.*3 To learn more about dual citizenship, check this link: <a href= "https://www.boundless.com/immigration-resources/dual-citizenship/#rights-and-responsibilities-of-dual-citizens" class="link"> Dual Citizenship - Rights and Responsibilities. </a></n></p>
     <h4 class="question" id="additionalInfo"> Additional Resources </h4>
-    <p class="answer" id="answerResources"> For additional help, we have provided you with websites that have plenty of information on applying for citizenship and for naturalizaton. Here are a few Support Centers you can go to for hand-in-hand support.</n></p>
-    <li><b> USCIS Application Support Center </b> - 4929, 1260-1278 60th St, Brooklyn, NY 11219. <a href= 'https://www.google.com/search?q=uscis%20application%20support%20center&oq=USCIS+Application+Support+Center&aqs=chrome.0.0l6.1041j0j7&sourceid=chrome&ie=UTF-8&safe=strict&npsic=0&rflfq=1&rlha=0&rllag=40678767,-74107447,10640&tbm=lcl&rldimm=1408900409725090365&lqi=CiB1c2NpcyBhcHBsaWNhdGlvbiBzdXBwb3J0IGNlbnRlciIDiAEBWiIKIHVzY2lzIGFwcGxpY2F0aW9uIHN1cHBvcnQgY2VudGVy&ved=2ahUKEwiJxb2KxoLkAhWEc98KHVElDAcQvS4wAXoECAsQHA&rldoc=1&tbs=lrf:!2m1!1e3!2m1!1e16!3sIAE,lf:1,lf_ui:4#rlfi=hd:;si:1408900409725090365,l,CiB1c2NpcyBhcHBsaWNhdGlvbiBzdXBwb3J0IGNlbnRlciIDiAEBWiIKIHVzY2lzIGFwcGxpY2F0aW9uIHN1cHBvcnQgY2VudGVy;mv:!1m2!1d40.892308!2d-73.7769998!2m2!1d40.614301999999995!2d-74.24029!3m12!1m3!1d135000.3694156068!2d-74.00864490000001!3d40.753305!2m3!1f0!2f0!3f0!3m2!1i338!2i268!4f13.1' class="link"> (See in Google Maps). </a></li>
-    <li><b> US Citizenship and Immigration Services </b> - 27-35 Jackson Ave, Long Island City, NY 11101. <a href= 'https://www.google.com/search?safe=strict&tbm=lcl&ei=WxhUXebGKIiKggfzzIq4Cg&q=US+Citizenship+and+Immigration+Services&oq=US+Citizenship+and+Immigration+Services&gs_l=psy-ab.3..35i39k1j0i7i30k1j0l8.4223.4378.0.4748.2.2.0.0.0.0.188.188.0j1.1.0....0...1c.1.64.psy-ab..1.1.185....0.fdUVUNnTyMU' class="link"> (See in Google Maps). </a> </li>
-
-
-
+    <p class="answer" id="answerResources"> For additional help, we have provided you with websites that have plenty of information on applying for citizenship and for naturalizaton. Here are a few Support Centers you can go to for support.</n></p>
+    <li><b> USCIS Application Support Center </b> - 4929, 1260-1278 60th St, Brooklyn, NY 11219. <a href= 'https://www.google.com/search?q=uscis%20application%20support%20center&oq=USCIS+Application+Support+Center&aqs=chrome.0.0l6.1041j0j7&sourceid=chrome&ie=UTF-8&safe=strict&npsic=0&rflfq=1&rlha=0&rllag=40678767,-74107447,10640&tbm=lcl&rldimm=1408900409725090365&lqi=CiB1c2NpcyBhcHBsaWNhdGlvbiBzdXBwb3J0IGNlbnRlciIDiAEBWiIKIHVzY2lzIGFwcGxpY2F0aW9uIHN1cHBvcnQgY2VudGVy&ved=2ahUKEwiJxb2KxoLkAhWEc98KHVElDAcQvS4wAXoECAsQHA&rldoc=1&tbs=lrf:!2m1!1e3!2m1!1e16!3sIAE,lf:1,lf_ui:4#rlfi=hd:;si:1408900409725090365,l,CiB1c2NpcyBhcHBsaWNhdGlvbiBzdXBwb3J0IGNlbnRlciIDiAEBWiIKIHVzY2lzIGFwcGxpY2F0aW9uIHN1cHBvcnQgY2VudGVy;mv:!1m2!1d40.892308!2d-73.7769998!2m2!1d40.614301999999995!2d-74.24029!3m12!1m3!1d135000.3694156068!2d-74.00864490000001!3d40.753305!2m3!1f0!2f0!3f0!3m2!1i338!2i268!4f13.1' class="link"> (See in Google Maps for more locations near you). </a></li>
+    <li><b> US Citizenship and Immigration Services </b> - 27-35 Jackson Ave, Long Island City, NY 11101. <a href= 'https://www.google.com/search?safe=strict&tbm=lcl&ei=WxhUXebGKIiKggfzzIq4Cg&q=US+Citizenship+and+Immigration+Services&oq=US+Citizenship+and+Immigration+Services&gs_l=psy-ab.3..35i39k1j0i7i30k1j0l8.4223.4378.0.4748.2.2.0.0.0.0.188.188.0j1.1.0....0...1c.1.64.psy-ab..1.1.185....0.fdUVUNnTyMU' class="link"> (See in Google Maps for more locations near you). </a> </li>
+    <p class="answer" id="answerCite">*1- Information is from Alllaw.com</n></p>
+    <p class="answer" id="answerCite">*2- Information is from Citizenpath.com</n></p>
+    <p class="answer" id="answerCite">*3- Information is from Boundless.com</n></p>
+  <div>
+</body>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</html>
 
 <!-- =======
 <!DOCTYPE html>
