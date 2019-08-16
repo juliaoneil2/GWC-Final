@@ -6,7 +6,7 @@ body {
   width: auto;
   height: auto;
   font-family: 'Cormorant SC', serif;
-  font-size: 55px;
+  font-size: 40px;
 }
 #titleText {
   border-style: solid;
@@ -20,7 +20,7 @@ body {
   color: white;
 }
 .link{
-  color:pink;
+  color: #0040ff;
 }
 .centerpic {
   display: block;
