@@ -66,7 +66,7 @@ TranslateIt = {
     fromLang : 'en',
 
     // if you want to style the flags yourself, set this to 0
-    useFlagCSS : 0,
+    useFlagCSS : 1,
 
     /**** end config ****/
 
