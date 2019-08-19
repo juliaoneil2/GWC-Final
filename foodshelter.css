@@ -1,0 +1,54 @@
+body {
+  background-color: #09244B
+}
+.header {
+  background-color: #7095CC;
+  width: auto;
+  height: auto;
+  font-family: 'Cormorant SC', serif;
+  font-size: 55px;
+  /* border-style: solid;
+  border-color: black; */
+}
+#titleText {
+  border-style: solid;
+  border-color: black;
+  border-width: 95%;
+}
+.bodyText{
+  color: white;
+  font-family: 'Port Lligat Slab', serif;
+}
+.navbar {
+  font-size: 1.8em;
+  top: 0%;
+  left: 50%;
+  right: 0%;
+  font-family: "Georgia";
+}
+.fa {
+  padding: 5px;
+  font-size: 10px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.socialIcons {
+  position:absolute;
+  top: 10.6%;
+  right: .3%;
+  padding: 2px;
+  font-size: 15px;
+}

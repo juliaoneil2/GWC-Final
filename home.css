@@ -41,6 +41,13 @@ body{
   padding: 2px;
   font-size: 25px;
 }
+.translateFlagsLogo {
+  padding: 0px 100px 100px 900px;
+  left:12%;
+  top: 9%;
+  position: relative;
+  bottom: 60px;
+}
 /* .middletext{
   position:absolute;
   top: 100%;
