@@ -1,6 +1,7 @@
 body {
   background-color: #09244B;
   max-width: 100%;
+  overflow-x: hidden;
 }
 .header {
   background-color: #7095CC;
@@ -21,9 +22,10 @@ body {
   border-color: black;
   border-width: 95%;
 }
-.bodyText{
+.bodyTexts{
   color: white;
   font-family: 'Port Lligat Slab', serif;
+  overflow-x: hidden;
 }
 .navbar {
   font-size: 1.8em;
@@ -53,7 +55,7 @@ body {
 }
 .socialIcons {
   position:absolute;
-  top: 10.8%;
+  top: 10.6%;
   right: .3%;
   padding: 2px;
   font-size: 15px;
