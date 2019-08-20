@@ -5,6 +5,12 @@ body{
   overflow-x: hidden;
 } */
 
+.title {
+  width: auto;
+  height: auto;
+  font-family: 'Cormorant SC', serif;
+  font-size: 55px;
+}
 .centerpic {
   display: block;
   margin-left: 30%;
