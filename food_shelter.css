@@ -57,3 +57,20 @@ body {
   padding: 2px;
   font-size: 15px;
 }
+.translateFlagsLogo {
+  /* padding: 100px 0px 0px 900px; */
+
+  left:83%;
+  position: absolute;
+}
+.foodkitchens {
+  text-indent: 50px;
+
+}
+.foodkitchensinfo {
+  text-indent: 50px;
+}
+
+.loc {
+  text-indent: 50px;
+}
