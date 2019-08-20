@@ -1,5 +1,6 @@
 body {
   background-color: #09244B;
+  max-width: 100%;
 }
 .header {
   background-color: #7095CC;
@@ -60,12 +61,8 @@ body {
 .translateFlagsLogo {
   /* padding: 100px 0px 0px 900px; */
 
-  left:83%;
+  left:82.5%;
   position: absolute;
-}
-.foodkitchens {
-  text-indent: 50px;
-
 }
 .foodkitchensinfo {
   text-indent: 50px;
@@ -77,4 +74,22 @@ body {
 
 .locs {
   text-indent: 80px;
+}
+.map {
+  /* float: right; */
+}
+.shelterinfo {
+  text-indent: 50px;
+}
+.single {
+  text-indent: 50px;
+}
+.info {
+  text-indent: 100px;
+}
+.infoloc {
+  text-indent: 100px;
+}
+.info2 {
+  text-indent: 130px;
 }
